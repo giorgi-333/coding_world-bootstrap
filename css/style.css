@@ -1,5 +1,14 @@
 
-.main-slider .carousel-item img {
+.main-slider .carousel-item > img {
     height: calc(100vh - 56px);
+    object-fit: cover;
+}
+
+.news .card {
+    width: 320px;
+}
+
+.news .card > img {
+    height: 170px;
     object-fit: cover;
 }
